@@ -23,7 +23,7 @@ $mail->Body="This is the email body";
 // 	'allow_self_signed'=>false
 // ));
 if($mail->send()){
-	echo "Please check your email id for password";
+	echo "Email Sent";
 }else{
 	echo "Error occur";
 }
